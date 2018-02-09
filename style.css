@@ -1,0 +1,422 @@
+*{margin:0;
+padding:0;}
+.left{float:left;}
+.right{float:right;}
+@font-face{font-family:Cubano-Regular;
+src:url('fonts/Cubano-Regular.otf') format('OpenType');
+}
+@font-face{
+font-family:Brandon Grotesque bold;
+
+src:url('fonts/Brandon Grotesque bold.otf') format('OpenType');
+
+
+}
+@font-face{
+	font-family:Brandon Grotesque medium;
+src:url('fonts/Brandon Grotesque bold.otf') format('OpenType');
+}
+@font-face{
+	font-family:Brandon Grotesque light;
+src:url('fonts/Brandon Grotesque light.otf') format('OpenType');
+}
+@font-face{
+	font-family:Brandon Grotesque regular;
+   src:url('fonts/Brandon Grotesque regular.otf') format('OpenType');
+}
+
+#development {
+    overflow:hidden;
+}
+
+#features {
+    overflow:hidden;
+}
+
+#clients {overflow:hidden;
+}
+
+#brands {overflow:hidden;
+}
+
+#team {overflow:hidden;
+}
+
+.wrapper {
+    width:80%;
+    margin:0 auto;
+}
+header{
+    overflow:hidden;
+    background-image:url('img/Escape.jpg');
+    min-height:800px;
+    background-size:cover;
+    position:relative;
+}
+overlay{
+    position:absolute;
+    height:800px;
+    background-color:rgba(0,0,0,0.3,);
+    
+    
+}
+.headertop {
+}
+
+.logo {color:white;
+    width:165px;
+    padding:20px 0px;
+    display:inline-flex;
+    
+    
+}
+.logo span{text-transform:uppercase;
+    font-weight:bold;
+    font-family:Cubano-Regular;
+    font-size:25px;
+    padding-left:12px;
+    
+}
+
+.menubar {
+    width:60%;
+    padding:15px 0px;
+}
+.menubar ul{
+    list-style-type:none;
+    float:right;
+    
+}
+.menubar ul li{
+    float:left;
+    
+    
+}
+.menubar ul li a{
+    color:white;
+    
+    text-decoration: none;
+    font-size:25px;
+    display:block;
+    padding:15px 20px;
+    font-weight:100;
+   
+    font-family:Brandon Grotesque medium;
+    
+}
+.menubar ul li a:hover{}
+
+.headerbottom {
+    clear:both;
+}
+.caption{text-align:center;
+color:white;
+padding-top:100px;}
+.caption p{
+    font-size:30px;
+    font-weight:100;
+    padding:20px;
+	font-family:Brandon Grotesque light;
+}
+.caption h1{
+    font-size:75px;
+    text-transform: uppercase;
+    padding-top:15px;
+    font-weight:100;
+	font-family:Brandon Grotesque bold;
+}
+.caption button{
+    color:white;
+    font-size:24px;
+    background:transparent;
+    padding:20px 60px;
+    margin-top:40px;
+    border:2px solid white;
+	font-family:Brandon Grotesque bold;
+    
+    
+}
+
+.webdevelopment {
+    overflow: hidden;
+    min-height:450px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    
+    
+    
+}
+
+.WDdescription{
+    width:65%;
+    padding-top:75px;
+    
+    
+    
+    
+}
+.WDdescription h1{color:#222222;
+font-size:55px;
+font-weight:100;
+font-family: Brandon Grotesque bold;}
+.WDdescription p{
+    color:#979797;
+    
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+	font-family:Brandon Grotesque regular;
+	font-style:regular;
+
+}
+.WDdescription h1 strong{font-family:Brandon Grotesque light;}
+.WDicon{width:35%;
+    
+    
+}
+
+.branding {
+    padding-top:75px;
+    
+    background-color:#FAFAFA;
+    overflow:hidden;
+    min-height:450px;
+    margin-top:30px;
+    
+}
+.marginright{margin-bottom:10px;}
+
+
+#features{
+    overflow:hidden;
+	height:650px;
+}
+
+.allfeatures {float:left;
+padding-top:85px;
+    
+    
+    
+    
+    }
+
+.featuresicon {float:left;}
+    
+
+.featuresdescription {
+    float:left;
+   
+
+}
+.featuresdescription h1{text-align:;
+    font-size:20px;
+	padding:10px 10px;
+	font-family:Brandon Grotesque medium;}
+
+.featuresdescription p{
+    color:#979797;
+    line-height:10px;
+    padding:10px 0px;
+    padding-left:10px;
+	font-size:18px;
+	font-family:Brandon Grotesque regular;
+}
+#clients{overflow:hidden;
+    min-height:820px;
+    background-color:#fafafa;
+    margin-left:-500px;
+  
+}
+.allclients{
+    
+}
+.allclients h1{text-align:center;
+font-size:60px;
+padding:20px 0px;
+padding-top:70px;
+font-family:Brandon Grotesque light;
+font-weight:normal;
+;}
+.allclients h1 strong{font-family:Brandon Grotesque medium;}
+.allclients p{ font-size:20px;
+text-align:center;
+padding-right:45px;
+color:#979797;
+font-family:Brandon Grotesque medium;
+}
+.testimonial {
+    overflow: hidden;
+   
+    margin-left:500px;
+    margin-right:500px;
+
+    
+}
+.clientt{
+color:#7690c5;
+}
+.margintop{margin-top:-210px;}
+.circleicon {height:250px;
+    width:250px;
+    border:2px solid black;
+    background-color:#111111;
+    border-radius:160px;
+    overflow:hidden;
+    
+}
+
+.testimony {
+    width:652px;
+    height:175px;
+    border:1px solid white;
+    background-color:#ffffff;
+    overflow:hidden;
+    margin-top:50px;
+    
+}
+.testimony p{color:#777777;
+font-size:22px;
+padding:20px 70px;
+font-family:Brandon Grotesque regular;
+   
+    
+}
+
+#brands{overflow:hidden;
+
+    height:200px;
+padding-top:30px;
+margin-left:110px;}
+.brandlogo {
+    height:100px;
+    float:left;
+        margin-left:
+    padding:10px 0px;
+    margin-top:70px;
+    
+}
+.strong{font-weight:100;
+color:#ffffff;}
+.strong1{margin-right:600px;
+padding-bottom:50px;}
+#team{overflow:hidden;
+height:800px;
+background-color:#111111;}
+.allclients 
+.teammembers {
+    padding-top:30px;
+    
+    width:800px;
+    
+    
+}
+.memberphoto{width:250px;
+height:250px;
+    
+border:8px solid white;
+background-color: black;
+border-radius:180px;
+    float:left;
+    margin-left:20px;
+   
+    
+}
+.title{color:white;
+text-align:center;
+margin-top:10px;
+padding-top:10px;
+margin-left:}
+.title p{padding:15px ;
+padding-top:15px;
+font-family:Brandon Grotesque bold;
+}
+.Name{padding-top:px;}
+.designation{color:white;}
+.designation p{padding:10px 0px;
+text-align:center;
+font-family:Brandon Grotesque regular;}
+.singleicon{float:left;
+margin-left:55px;
+    
+    
+width:1px;}
+.singlemember {float:left;
+}
+
+.clientbottom {color:white;
+    padding-top:500px;
+    line-height:20px;
+    font-size:17px;
+    text-align:center;
+    margin-right:750px;
+    padding:10px 0 px;
+    margin-bottom:40px;
+    margin-top:-75px;
+	font-family:Brandon Grotesque regular;
+	color:#939393;
+	
+}
+footer{overflow:hidden;
+background-color:#7690c5;
+height:600px;
+    right:0;
+    left:0;
+margin:0 auto;}
+.footertop {float:left;
+    padding-top:30px;
+    color:white;
+    padding-top:30px;
+    width:50%;
+    border-bottom:1px sold black;
+}
+
+
+
+.contactinfo h1{font-family:Brandon Grotesque light;
+font-size:60px;}
+.contactinfo h1 strong{font-family:Brandon Grotesque bold;
+font-size:60px;}
+.contactinfo p{font-size:19px;
+font-family:Brandon Grotesque light;
+
+}
+.contactform{width:50%;}
+.info{font-size:18px;
+margin-top:5px;
+padding-top:10px;
+    line-height:50px;
+    padding:20px 15px;
+    padding-left:12px;
+}
+.info span{font-family:Brandon Grotesque light;}
+
+form{
+ width:200px;
+    height:10px;
+    
+}
+.name{width:350px;
+    height:30px;
+margin-top:60px;
+}
+.emailaddress{width:350px;
+    height:30px;
+margin-top:20px;}
+.footerbottom 
+{width:200px;
+    height:100px;
+    margin-top:30px;
+    text-align:center;
+    padding-top:45px;
+    margin-left:200px;
+    margin-left:400px;
+    color:white;
+    }
+textarea{width:350px;
+height:180px;
+margin-top:30px;}
+.copyrightinfo {padding-top:120px;
+    padding:10px 20px;
+	font-family:Brandon Grotesque light;
+}
